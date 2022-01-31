@@ -1,3 +1,4 @@
 #pragma once
 #include <stdio.h>
-unsigned int balance = 0;
+#include <stdbool.h>
+unsigned int balance = 0; //In Cent
