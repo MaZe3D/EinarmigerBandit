@@ -4,3 +4,5 @@
 
 bool changeBalance(int value);
 unsigned int getBalance();
+void deposit();
+void payday();
