@@ -101,7 +101,7 @@ bool wannaPlay()
 		printf("You have %u free games left!", freispiele = freispiele - 1);
 		return true;
 	}
-	if (getBalance > 0)
+	if (getBalance() > 0)
 	{
 		char h;
 		printf("You have %.2f on your Account. Do you want to play a game?\n (y|n)", getBalance() / 100);
