@@ -1,10 +1,10 @@
 #include "Guthabenverwaltung.h"
 #include "Spieleverwaltung.h"
 
-void gameRoutine()
+/*void gameRoutine()
 {
 	while (balance > 0)
 	{
 		
 	}
-}
+}*/

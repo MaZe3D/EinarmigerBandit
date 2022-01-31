@@ -1,6 +1,7 @@
 
 #include "Guthabenverwaltung.h"
 
+bool checkCurrency(int value);
 unsigned int balance = 0; //In Cent
 
 bool changeBalance(int value)
@@ -38,3 +39,13 @@ bool checkCurrency(int value)
 	}
 	return false;
 }
+
+void payday()
+{
+	printf("Auszahlung:\n");
+	printf("Sie erhalten %.2f Euro\n", (float)balance / 100);
+	changeBalance(balance *(-1));
+	printf("Kommen sie bald wieder :)\n");
+
+}
+
