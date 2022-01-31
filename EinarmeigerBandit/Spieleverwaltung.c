@@ -45,7 +45,7 @@ void gameRoutine()
 			else
 				printf("You will win next time. Your win has been reset!");
 		}
-		printf("You have added %.2f to your account", (float)(getBalance() / 100));
+		printf("You have added %.2f to your account", (float)(winBetrag / 100));
 		changeBalance(winBetrag);
 		
 	}
