@@ -145,7 +145,7 @@
     <ClCompile Include="Spieleverwaltung.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Guthabenverwlatung.h" />
+    <ClInclude Include="Guthabenverwaltung.h" />
     <ClInclude Include="Spieleverwaltung.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
